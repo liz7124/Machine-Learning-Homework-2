@@ -58,14 +58,14 @@ Below is the result of our training:
 And this is the result of our prediction test:
 
     Custom 1
-	    Test loss: 0.24535114361345767
-	    Test accuracy: 0.9174
+	    Test loss: 0.2440476189494133
+	    Test accuracy: 0.9195
     Custom 2
-	    Test loss: 0.21931174544990062
-	    Test accuracy: 0.9224
+	    Test loss: 0.21550129290223122
+	    Test accuracy: 0.9267
     Custom 3
-	    Test loss: 0.22990238210856914
-	    Test accuracy: 0.9279
+	    Test loss: 0.26966335052400825
+	    Test accuracy: 0.9271
 
 ## 8d - Gradient Optimization Techniques
 We perform ADAM, Adagrad, RMSProp, and AdaDelta.
