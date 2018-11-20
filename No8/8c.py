@@ -152,7 +152,7 @@ training_title_list.append('Custom 2')
 
 cnn = CNN()
 cnn.load_data()
-cnn.set_custom(3,64,3,2)
+cnn.set_custom(2,64,2,2)
 cnn.normalization()
 cnn.set_kernel_initializer('he_normal')
 model = cnn.data_construct()
