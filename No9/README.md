@@ -36,6 +36,7 @@ And this is the animation result of cGAN. For 1000 epochs animation, I just crea
 |--|--|
 | ![enter image description here](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/1000epochs_xavier/Fashion_MNIST_cGAN_generation_animation.gif) | ![enter image description here](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/1000epochs_he_normal/Fashion_MNIST_cGAN_generation_animation.gif) |
 
+You can see the other results with different epochs [here](https://github.com/liz7124/Machine-Learning-Homework-2/tree/master/No9/Fashion_MNIST_cGAN_results).
 
 ## References
 [1] [Introduction to Conditional GAN](https://www.packtpub.com/mapt/book/big_data_and_business_intelligence/9781788396417/3/ch03lvl1sec17/introduction-to-conditional-gan)
