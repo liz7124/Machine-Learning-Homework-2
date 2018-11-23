@@ -14,11 +14,11 @@ I tried to perform Xavier Initializer and He normal initializer to the Generator
 
 | 500 epochs with Xavier | 500 epochs with He normal |
 |--|--|
-| ![500 epochs with Xavier initializer](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/500epochs_xavier/Fashion_MNIST_cGAN_train_hist.png) | ![500 epochs](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/500epochs_he_normal/Fashion_MNIST_cGAN_train_hist.png) |
+| ![500 epochs with Xavier initializer](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/500epochs_xavier/Fashion_MNIST_cGAN_train_hist.png) | ![500 epochs with He normal](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/500epochs_he_normal/Fashion_MNIST_cGAN_train_hist.png) |
 
 | 1000 epochs with Xavier | 1000 epochs with He normal |
 |--|--|
-| https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/1000epochs_xavier/Fashion_MNIST_cGAN_train_hist.png | https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/1000epochs_he_normal/Fashion_MNIST_cGAN_train_hist.png |
+| ![1000 epochs with Xavier](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/1000epochs_xavier/Fashion_MNIST_cGAN_train_hist.png) | ![1000 epochs with He normal](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/1000epochs_he_normal/Fashion_MNIST_cGAN_train_hist.png) |
 
 This is the time result that we need to perform cGAN:
  - Avg per epoch ptime: 2.38, total 500 epochs ptime: 2529.80 (Xavier)
