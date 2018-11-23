@@ -11,8 +11,14 @@ In the  **Conditional GAN**  (**CGAN**), the generator learns to generate a fake
 
 ## Result
 I tried to perform Xavier Initializer and He normal initializer to the Generator. The result shows that with Xavier get into convergence state more faster than He normal. On 500 epochs with Xavier the Generator already get into convergence state.
+This is the time result that we need to perform cGAN:
 
-This is the result. For 1000 epochs animation, I just create sampling of some picture because of file size problem.
+ - Avg per epoch ptime: 2.38, total 500 epochs ptime: 2529.80 (Xavier)
+ - Avg per epoch ptime: 2.31, total 500 epochs ptime: 2511.87 (He normal)
+ - Avg per epoch ptime: 2.33, total 1000 epochs ptime: 4936.01 (Xavier)
+ - Avg per epoch ptime: 2.34, total 1000 epochs ptime: 8422.97 (He normal)
+
+And this is the animation result of cGAN. For 1000 epochs animation, I just create sampling of some picture because of file size problem.
 
 | Epoch 1-500 (Xavier-Generator) | Epoch 1-500 (He normal-Generator) |
 |--|--|
@@ -21,7 +27,7 @@ This is the result. For 1000 epochs animation, I just create sampling of some pi
 
 | Epoch 1-1000 (Xavier-Generator) | Epoch 1-1000 (He normal-Generator) |
 |--|--|
-| ![enter image description here](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/1000epochs_xavier/Fashion_MNIST_cGAN_generation_animation.gif) |  |
+| ![enter image description here](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/1000epochs_xavier/Fashion_MNIST_cGAN_generation_animation.gif) | ![enter image description here](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/1000epochs_he_normal/Fashion_MNIST_cGAN_generation_animation.gif) |
 
 
 ## References
