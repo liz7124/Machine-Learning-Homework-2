@@ -10,8 +10,9 @@ A  **Generative Adversarial Network**  (**GAN**) simultaneously trains two netwo
 In the  **Conditional GAN**  (**CGAN**), the generator learns to generate a fake sample with a specific condition or characteristics (such as a label associated with an image or more detailed tag) rather than a generic sample from unknown noise distribution. Now, to add such a condition to both generator and discriminator, we will simply feed some vector  _y_, into both networks. Hence, both the discriminator  _D(X,y)_  and generator  _G(z,y)_  are jointly conditioned to two variables,  _z_  or  _X_  and  _y_. [1]
 
 ## Result
-|Epoch 1-500 (Xavier - Generator)|Epoch 1-500 (He normal - Generator|Epoch 1-1000 (Xavier - Generator)|Epoch 1-1000 (He normal - Generator)|
-|![enter image description here](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/500epochs_xavier/Fashion_MNIST_cGAN_generation_animation.gif)|![enter image description here](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/500epochs_he_normal/Fashion_MNIST_cGAN_generation_animation.gif)|![enter image description here](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/1000epochs_xavier/Fashion_MNIST_cGAN_generation_animation.gif)||
+| Epoch 1-500 (Xavier-Generator) | Epoch 1-500 (He normal-Generator) | Epoch 1-1000 (Xavier-Generator) | Epoch 1-1000 (He normal-Generator) |
+|--|--|--|--|
+| ![enter image description here](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/500epochs_xavier/Fashion_MNIST_cGAN_generation_animation.gif) | ![enter image description here](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/500epochs_xavier/Fashion_MNIST_cGAN_generation_animation.gif) | ![enter image description here](https://github.com/liz7124/Machine-Learning-Homework-2/blob/master/No9/Fashion_MNIST_cGAN_results/1000epochs_xavier/Fashion_MNIST_cGAN_generation_animation.gif) |  |
 
 
 ## References
