@@ -409,3 +409,6 @@ And this is the result of our prediction test:
     With Regularizer - L2
 	    Test loss: 0.24873313145637513
 	    Test accuracy: 0.9116
+
+
+##### Elizabeth Nathania Witanto -- 20185088

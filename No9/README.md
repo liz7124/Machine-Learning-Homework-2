@@ -46,3 +46,6 @@ You can see the other results with different epochs [here](https://github.com/li
 
 ## References
 [1] [Introduction to Conditional GAN](https://www.packtpub.com/mapt/book/big_data_and_business_intelligence/9781788396417/3/ch03lvl1sec17/introduction-to-conditional-gan)
+
+
+##### Elizabeth Nathania Witanto -- 20185088
