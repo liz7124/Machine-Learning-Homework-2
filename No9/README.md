@@ -9,6 +9,12 @@ A  **Generative Adversarial Network**  (**GAN**) simultaneously trains two netwo
 
 In the  **Conditional GAN**  (**CGAN**), the generator learns to generate a fake sample with a specific condition or characteristics (such as a label associated with an image or more detailed tag) rather than a generic sample from unknown noise distribution. Now, to add such a condition to both generator and discriminator, we will simply feed some vector  _y_, into both networks. Hence, both the discriminator  _D(X,y)_  and generator  _G(z,y)_  are jointly conditioned to two variables,  _z_  or  _X_  and  _y_. [1]
 
+## Run
+If you want to change the initializer for the Generator you can use `line 18` for Xavier, or `line 19` for He normal. You also can change the epochs on `line 112`.
+
+    python Fashion_MNIST_cGAN.py
+The training may take some times depend on machine you use. For me, it took 1,5 hours for training on 1000 epochs with `NVIDIA GeForce GTX 1050`.
+
 ## Result
 I tried to perform Xavier Initializer and He normal initializer to the Generator. The result shows that with Xavier get into convergence state more faster than He normal. On 500 epochs with Xavier the Generator already get into convergence state. Compare to He normal, it still not get into convergence state with 1000 epochs.
 
